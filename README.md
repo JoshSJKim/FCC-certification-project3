@@ -13,3 +13,4 @@ Technical Documentation Page
 - Will need further styling using CSS later to add indentation where required.
 
 - Issue resolved. Use pre tags instead of code tags for longer code examples to retain its form.
+- Although code tags can be used for short code snippets, it seems to be more advantageous to use pre tags for all code examples for the sake of uniformity. Especially when there are numerous code snippets in the html. It would also be easier to group the codes into a single class for styling in CSS later.
