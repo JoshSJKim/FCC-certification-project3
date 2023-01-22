@@ -8,3 +8,18 @@
     box-sizing: border-box;
     min-width: 375px;
 }
+
+body {
+    background-color: ghostwhite;
+    color: black;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#nav-header {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+    padding-bottom: 30px;
+}
