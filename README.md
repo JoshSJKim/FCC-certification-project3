@@ -18,3 +18,7 @@ Technical Documentation Page
 ## Box-sizing
 
 - When using box-sizing: border-box, remove padding from * to utilize the entire web page.
+
+### To do
+
+- Add @media query to change the position of the navbar for smaller screen size.
