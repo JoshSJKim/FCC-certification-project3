@@ -7,6 +7,7 @@
 * {
     box-sizing: border-box;
     min-width: 375px;
+    padding: 0;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
 #navbar {
     position: fixed;
     top: 0;
-    left: 0;
     width: 375px;
     height: 100%;
     border-right: 2px solid black;
@@ -32,24 +32,33 @@ body {
     margin: 0 auto;
     border-bottom: 2px solid black;
     padding-bottom: 30px;
+    overflow: hidden;
 }
 
 .nav-ul {
     width: 375px;
     height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 nav ul li {
     list-style-type: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border-bottom: 1px solid black;
+    text-indent: 2em;
+    padding: 12.9px 0;
 }
 
 .nav-link {
     text-decoration: none;
     color: black;
-
 }
+
+.nav-link:visited {
+    color: black;
+}
+
 #main-doc {
     margin-top: 5%;
     margin-left: 30%;
@@ -58,6 +67,15 @@ nav ul li {
 }
 
 header {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     padding: 2rem 0;
+}
+
+li:first-of-type {
+    padding-top: 0
+}
+
+.code-container {
+    background-color: rgb(237, 232, 227);
+    padding-top: 20px;
 }
