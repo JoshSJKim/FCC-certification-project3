@@ -14,30 +14,47 @@ body {
     color: black;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 #navbar {
     position: fixed;
     top: 0;
     left: 0;
-    width: 300px;
+    width: 375px;
     height: 100%;
     border-right: 2px solid black;
 }
 
 #nav-header {
     text-align: center;
-    margin-top: 30px;
     font-size: 2rem;
+    margin: 0 auto;
     border-bottom: 2px solid black;
     padding-bottom: 30px;
 }
 
+.nav-ul {
+    width: 375px;
+    height: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+
+}
 #main-doc {
     margin-top: 5%;
     margin-left: 30%;
     margin-right: 10%;
+    line-height: 2;
 }
 
 header {
