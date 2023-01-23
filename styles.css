@@ -79,3 +79,7 @@ li:first-of-type {
     background-color: rgb(237, 232, 227);
     padding-top: 20px;
 }
+
+header:last-of-type {
+    padding-bottom: 0;
+}
