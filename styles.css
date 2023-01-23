@@ -14,12 +14,33 @@ body {
     color: black;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10%;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid black;
 }
 
 #nav-header {
     text-align: center;
     margin-top: 30px;
-    font-size: 3rem;
+    font-size: 2rem;
     border-bottom: 2px solid black;
     padding-bottom: 30px;
+}
+
+#main-doc {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 10%;
+}
+
+header {
+    font-size: 1.5rem;
+    padding: 2rem 0;
 }
