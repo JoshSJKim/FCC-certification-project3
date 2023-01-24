@@ -27,3 +27,15 @@ Technical Documentation Page
 
 - The page looks fine when it is full. However, when the screen size decreases, the main-doc element is overlapped with the nav bar.
 - I also have to figure out how to get the navbar to scroll when using smaller height windows.
+
+## RESET CSS
+
+- The CSS file was getting too bloated and I lost track of which line applies which effect, and which lines are not doing anything.
+- Wipe it clean and start over.
+- Styling the side nav bar and encountered an issue with scrolling.
+- The ul content is visible underneath the header content.
+
+## To do: update
+
+- Figure out a way to make the nav header fixed and ul content scroll beneath the header.
+- Then apply @media to reposition the nav bar according to screen size.
