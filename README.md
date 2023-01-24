@@ -22,3 +22,8 @@ Technical Documentation Page
 ### To do
 
 - Add @media query to change the position of the navbar for smaller screen size.
+
+### New problems encountered
+
+- The page looks fine when it is full. However, when the screen size decreases, the main-doc element is overlapped with the nav bar.
+- I also have to figure out how to get the navbar to scroll when using smaller height windows.

@@ -48,6 +48,7 @@ nav ul li {
     border-bottom: 1px solid black;
     text-indent: 2em;
     padding: 12.9px 0;
+    overflow: hidden;
 }
 
 .nav-link {
@@ -60,8 +61,10 @@ nav ul li {
 }
 
 #main-doc {
+    position: absolute;
+    padding: 0 20px;
     margin-top: 5%;
-    margin-left: 30%;
+    margin-left: 400px;
     margin-right: 10%;
     line-height: 2;
 }
@@ -82,4 +85,13 @@ li:first-of-type {
 
 header:last-of-type {
     padding-bottom: 0;
+}
+
+/* Adjust navbar to smaller screen */
+
+@media only screen and (max-width: 820px) {
+
+    #navbar {
+        position: absolute;
+    }
 }
