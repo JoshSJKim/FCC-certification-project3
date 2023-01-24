@@ -14,7 +14,7 @@
     font-family: 'Open Sans', sans-serif
   }
 
-  #navbar {
+  .navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -24,7 +24,7 @@
     border-right: 2px solid black;
   }
 
-  #nav-header {
+  .nav-header {
     position: fixed;
     display: flex;
     justify-content: center;
@@ -36,14 +36,14 @@
     z-index: 1;
   }
 
-  #nav-ul {
+  .nav-ul {
     list-style: none;
     padding: 0;
     margin: 0;
     width: 300px;
   }
 
-  #nav-ul li {
+  .nav-ul li {
     border-bottom: 1px solid black;
     text-indent: 20px;
     padding: 15px 0 15px 0;
@@ -54,7 +54,9 @@
     color: black;
   }
 
-  #main-doc {
+  .main-doc {
     margin-left: 350px;
     margin-top: 50px;
   }
+
+  
