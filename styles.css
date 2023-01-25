@@ -118,7 +118,7 @@
   
   .main-doc {
     position: absolute;
-    left: 5px;
+    left: 1px;
     top: 330px;
     overflow-y: auto;
       width: calc(100% - 60px);

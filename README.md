@@ -114,3 +114,7 @@ Technical Documentation Page
 - border-bottom is self-explanatory.
 - text-indent: 20px will indent the list item text 20px from the left edge of the page.
 - padding: 15px 0 15px 0 will provide 10px padding on top and bottom of the list item text.
+
+## navbar issue again at top of page
+
+- I want to have the nav-header scroll up when the main-doc is scrolled, but the nav-header stays fixed while the nav-ul content scrolls up with the main-doc content.
