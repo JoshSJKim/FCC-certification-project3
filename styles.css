@@ -1,17 +1,8 @@
-@media (prefers-reduced-motion: no-preference) {
-    * {
-    scroll-behavior: smooth;
-    }
-  }
 
-  * {
-    box-sizing: border-box;
-    padding: 0;
-  }
 
   body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif
+    font-family: 'Open Sans', sans-serif;
   }
 
   .navbar {
@@ -19,33 +10,36 @@
     top: 0;
     left: 0;
     width: 300px;
-    min-height: 100vh;
-    overflow: auto;
+    height: 100%;
     border-right: 2px solid black;
+    overflow: auto;
   }
 
   .nav-header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0 20px 0;
-    width: 300px;
-    height: 50px; 
-    border-bottom: 1px solid black;
-    font-size: 1.5rem;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    font-size: 1.7rem;
+    border-bottom: 2px solid black;
   }
 
   .nav-ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
-    margin: 0;
-    width: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .nav-ul li {
     border-bottom: 1px solid black;
     text-indent: 20px;
     padding: 15px 0 15px 0;
+  }
+
+  .nav-ul li:first-of-type {
+    padding-top: 0;
   }
 
   .nav-link {
@@ -56,6 +50,7 @@
   .main-doc {
     margin-left: 350px;
     margin-top: 50px;
+    z-index: 0;
   }
 
   

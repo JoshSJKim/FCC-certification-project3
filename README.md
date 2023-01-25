@@ -39,3 +39,9 @@ Technical Documentation Page
 
 - Figure out a way to make the nav header fixed and ul content scroll beneath the header.
 - Then apply @media to reposition the nav bar according to screen size.
+
+### navbar issue
+
+- Able to scroll the side navbar, but the nav-ul content does not scroll under the nav-header.
+- Fiddling with position property but unable to achieve desired effect.
+- Do some more googling.
