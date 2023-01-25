@@ -107,13 +107,25 @@
   }
 
   .nav-header {
+    position: sticky;
+    top:0;
+    left: 0;
     width: 100%;
     z-index: 1;
     border-bottom: 2px solid black;
   }
 
+  .nav-ul {
+    margin-top: 0;
+  }
+
   .nav-ul li:last-of-type {
     border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .nav-up li:first-of-type {
+    border-top: none;
   }
   
   .main-doc {

@@ -118,3 +118,7 @@ Technical Documentation Page
 ## navbar issue again at top of page
 
 - I want to have the nav-header scroll up when the main-doc is scrolled, but the nav-header stays fixed while the nav-ul content scrolls up with the main-doc content.
+
+## top navbar issue resolved
+
+- For nav-header, use position:sticky with top and left property at 0 for the nav-header to scroll up with the main-doc content.
