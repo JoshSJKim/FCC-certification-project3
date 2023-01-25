@@ -45,3 +45,72 @@ Technical Documentation Page
 - Able to scroll the side navbar, but the nav-ul content does not scroll under the nav-header.
 - Fiddling with position property but unable to achieve desired effect.
 - Do some more googling.
+
+### navbar issue (sort of) resolved
+
+```CSS
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid black;
+    overflow: auto;
+  }
+```
+
+- Position:fixed with top 0 and left 0 will position the navbar to the left side of the page.
+- width: 300px and height: 100% will set the navbar to come out 300px from the left side of the page and fill the height of the entire page.
+- border-right property will add a solid border on the right side of the navbar to provide separation from the main-doc element.
+- overflow: auto will allow the navbar to scroll up and down if the contents of the nav-ul overflows the height of the page.
+
+```CSS
+    .nav-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: 1.7rem;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+  }
+```
+
+- position: fixed, top:0, left:0 will fix the nav-header to the top left position of the page.
+- text-align: center will center the text.
+- padding: 20px 0 20px 0 will add padding to the top and bottom of the text.
+- font-size is self explanatory.
+- Added background-color: white so that the nav-ul content is not visible beneath the nav-header when scrolling. This felt like 'cheating' in a way. Need to explore more ways to achieve this effect.
+- width: 300px and height: 50px will set the width and height of the header (including the extent of the background-color).
+
+```CSS
+  .nav-ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 90px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-top: 1px solid black;
+  }
+```
+
+- list-style-type: none will remove the bullets from the list items.
+- padding: 0 will remove any default padding from the element.
+- margin-top: 90px will provide a buffer from the top of the page to the top of the nav-ul to off set the start point of the nav-ul content.
+- The overflow-y is set to auto, which means that if the contents of the element exceed the height of the element, a scrollbar will appear vertically. overflow-x is set to hidden, which means that the horizontal scrollbar will be hidden if the contents of the element exceed the width of the element.
+- border-top is self-explanatory.
+
+```CSS
+  .nav-ul li {
+    border-bottom: 1px solid black;
+    text-indent: 20px;
+    padding: 10px 0 10px 0;
+  }
+```
+
+- border-bottom is self-explanatory.
+- text-indent: 20px will indent the list item text 20px from the left edge of the page.
+- padding: 15px 0 15px 0 will provide 10px padding on top and bottom of the list item text.
