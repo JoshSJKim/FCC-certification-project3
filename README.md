@@ -63,7 +63,7 @@ Technical Documentation Page
 - Position:fixed with top 0 and left 0 will position the navbar to the left side of the page.
 - width: 300px and height: 100% will set the navbar to come out 300px from the left side of the page and fill the height of the entire page.
 - border-right property will add a solid border on the right side of the navbar to provide separation from the main-doc element.
-- overflow: auto will allow the navbar to scroll up and down if the contents of the nav-ul overflows the height of the page.
+- overflow: auto will allow the navbar to scroll up and down if the contents of the nav-ul exceed the height of the page.
 
 ```CSS
     .nav-header {
